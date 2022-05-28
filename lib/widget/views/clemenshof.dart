@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:pocket_scat/util/quote.dart';
 import 'package:pocket_scat/util/quote_source.dart';
 
-import 'quote_button.dart';
+import '../quote_button.dart';
 
 class SearchableQuotes extends StatefulWidget {
   final List<Quote> _allQuotes;
