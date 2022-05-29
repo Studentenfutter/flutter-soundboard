@@ -31,11 +31,15 @@ class App extends StatelessWidget {
       //home: SearchableQuotes(_allQuotes));
       home: DefaultTabController(
         animationDuration: Duration.zero,
-        length: 4,
+        length: 5,
         child: Scaffold(
           bottomNavigationBar: BottomAppBar(
             child: TabBar(
               tabs: [
+                Tab(
+                  icon: Icon(Icons.home),
+                  text: 'Alle Tierstimmen',
+                ),
                 Tab(
                   icon: Icon(Icons.forest),
                   text: 'Affen',
@@ -61,6 +65,7 @@ class App extends StatelessWidget {
               SearchableQuotes(_clemenshof),
               SearchableQuotes(_katzen),
               SearchableQuotes(_quiz),
+              SearchableQuotes(_allQuotes),
             ],
           ),
         ),
