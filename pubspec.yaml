@@ -14,6 +14,7 @@ dependencies:
   audioplayers: 0.20.1
   dart_random_choice: 0.1.0-nullsafety.0
   share: 2.0.1
+  splashscreen: ^1.3.5
 
 dev_dependencies:
   integration_test:
@@ -25,7 +26,7 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: assets/images/bean.png
+  image_path: assets/images/logo.png
 
 # The following section is specific to Flutter.
 flutter:
