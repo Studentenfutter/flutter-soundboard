@@ -42,6 +42,7 @@ class App extends StatelessWidget {
               quiz: _quiz,
               allQuotes: _allQuotes),
           image: Image.asset('assets/images/logo.png'),
+          photoSize: 100.0,
           backgroundColor: Colors.white,
           styleTextUnderTheLoader: new TextStyle(),
           loaderColor: Colors.green,
