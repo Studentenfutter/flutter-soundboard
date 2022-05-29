@@ -1,4 +1,4 @@
-enum QuoteCategory { SKETCH, SITCOM, GAME, KIDS_TV, MISC }
+enum QuoteCategory { SKETCH, SITCOM, GAME, KIDS_TV, MISC, QUIZ }
 
 const Map<QuoteCategory, String> QuoteCategoryDesc = {
   QuoteCategory.SKETCH: 'Sketches',
@@ -6,4 +6,5 @@ const Map<QuoteCategory, String> QuoteCategoryDesc = {
   QuoteCategory.GAME: 'Games',
   QuoteCategory.KIDS_TV: 'Kids TV',
   QuoteCategory.MISC: 'Misc',
+  QuoteCategory.QUIZ: 'Quiz'
 };

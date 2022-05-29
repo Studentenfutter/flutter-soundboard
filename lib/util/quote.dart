@@ -14,7 +14,8 @@ class Quote {
   final String searchStr;
   final String imageName;
 
-  const Quote(this.filename, this.name, this.source, this.searchStr, [this.imageName]);
+  const Quote(this.filename, this.name, this.source, this.searchStr,
+      [this.imageName]);
 
   bool containsSearchTerm(String searchTerm) {
     if (searchTerm.isEmpty) return true;
@@ -41,7 +42,7 @@ class Quote {
 
   Future play() async {
     await _audioPlayer?.stop();
-    _audioPlayer = await audioCache.play('$filename.wav');
+    _audioPlayer = await audioCache.play('$filename.mp3');
   }
 }
 
