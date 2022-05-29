@@ -36,8 +36,13 @@ class Quote {
   }
 
   Future shareAudio(BuildContext context) async {
-    final fullFilename = '$filename.wav';
-    await fileSharer.shareFile(name, fullFilename, context, 'media/wav');
+    final fullFilename = '$filename.mp3';
+    await fileSharer.shareFile(name, fullFilename, context, 'media/mp3');
+  }
+
+  Future<String> showAudio(BuildContext context) async {
+    final animalName = '$name';
+    return '$animalName';
   }
 
   Future play() async {
