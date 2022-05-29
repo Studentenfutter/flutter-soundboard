@@ -42,8 +42,6 @@ const List<Quote> ALL_QUOTES = [
   Quote('7_Hausschaf', 'Hausschaf', SRC_QUIZ, 'schaf', 'Hausschaf'),
   Quote('9_Humboldtpinguin', 'Humboldtpinguin', SRC_QUIZ, 'pinguin',
       'Humboldtpinguin'),
-  Quote('11_Leopard_Persischer', 'Persischer Leopard', SRC_QUIZ, 'Leopard',
-      'Leopard_Persischer'),
   Quote('13_Nashorn', 'Nashorn', SRC_QUIZ, '13_Nashorn', 'Nashorn'),
   Quote('16_Uhu', 'Uhu', SRC_QUIZ, 'Uhu', 'Uhu'),
   Quote('i_like_to_move_it', 'I like to move it (Song)', SRC_QUIZ, 'Madagascar',
