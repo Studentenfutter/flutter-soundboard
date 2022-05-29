@@ -35,6 +35,7 @@ class App extends StatelessWidget {
         )),
         home: SplashScreen(
           seconds: 2,
+          title: Text('Soundboard', style: TextStyle(fontSize: 30)),
           navigateAfterSeconds: MyTabs(
               affen: _affen,
               clemenshof: _clemenshof,
@@ -44,7 +45,7 @@ class App extends StatelessWidget {
           image: Image.asset('assets/images/logo.png'),
           photoSize: 100.0,
           backgroundColor: Colors.white,
-          styleTextUnderTheLoader: new TextStyle(),
+          styleTextUnderTheLoader: TextStyle(),
           loaderColor: Colors.green,
         ));
   }
@@ -123,3 +124,5 @@ class MyTabs extends StatelessWidget {
     );
   }
 }
+
+// Theme Switcher

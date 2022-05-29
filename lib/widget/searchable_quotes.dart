@@ -35,18 +35,19 @@ class SearchableQuotesState extends State<SearchableQuotes> {
             onPressed: _searchPressed),
         // Other Icons here
         actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.sunny),
-            tooltip: 'Dark Mode',
-            padding: EdgeInsets.only(right: 40.0),
-          ),
+          // TODO: Implement DarkMode - requires a migration to the new API
+          //  IconButton(
+          //    onPressed: () {},
+          //    icon: const Icon(Icons.sunny),
+          //    tooltip: 'Dark Mode',
+          //    padding: EdgeInsets.only(right: 40.0),
+          //  ),
           IconButton(
             onPressed: () => showDialog<String>(
               context: context,
               builder: (BuildContext context) => AlertDialog(
                 scrollable: true,
-                title: const Text('Soundboard - Erklärung'),
+                title: const Text('Kölner Zoo Soundboard - Erklärung'),
                 content: const Text(
                     'Die App enthält alle Tierstimmen, die in unterschiedlichen Programmen eingesetzt werden. In der unteren Leiste kann das Programm ausgewählt werden.' +
                         '\n\n' +
@@ -56,10 +57,6 @@ class SearchableQuotesState extends State<SearchableQuotes> {
                         '\n\n' +
                         'Letztes Update: 29.05.2022 | Version: 1.0.0 | Entwickler: Florian Feix'),
                 actions: <Widget>[
-                  TextButton(
-                    onPressed: () => Navigator.pop(context, 'Cancel'),
-                    child: const Text('Cancel'),
-                  ),
                   TextButton(
                     onPressed: () => Navigator.pop(context, 'OK'),
                     child: const Text('Schließen'),
