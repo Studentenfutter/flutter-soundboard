@@ -33,7 +33,6 @@ const List<Quote> ALL_QUOTES = [
       'Indischer_Loewe'),
   Quote('11_Leopard_Persischer', 'Persischer Leopard', SRC_QUIZ, 'Leopard',
       'Leopard_Persischer'),
-  Quote('1_Poitou_Esel', 'Poitou-Esel', SRC_QUIZ, 'poitou_esel'),
   Quote('3_Dolchstichtaube', 'Dolchstichtaube', SRC_QUIZ, 'taube',
       'dolchstichtaube'),
   Quote('4_Flusspferd', 'Flusspferd', SRC_QUIZ, 'Flusspferd', 'Flusspferd'),
