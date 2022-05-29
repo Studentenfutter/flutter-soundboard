@@ -1,17 +1,12 @@
-# Pocket Scat
+# Flutter Soundboard
 
-<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/5732536/76313150-52c95c80-62cc-11ea-9cdc-4d272229aa5b.jpg" width="300" alt="screenshot">
-<img align="center" src="https://user-images.githubusercontent.com/5732536/76313154-552bb680-62cc-11ea-9e41-f2e7499514d2.jpg" width="300" alt="screenshot during search">
-</p>
+A simple soundboard app based on the work of [alyssaburlton](https://github.com/alyssaburlton/pocket-scat) with all the original features plus:
 
-A simple soundboard app, with:
+- Multiple tabs with different Buttons showing
+- A Splashscreen
+- A Info button in the AppBar
+- Todo: A DarkMode switch 
 
- - Quotes laid out as a scrollable grid of captioned image tiles. Tapping on one plays the sound bite.
- - A search bar, allowing quotes to be filtered by their content and by other metadata such as the TV show they're from
- - 'Play random' floating action button, which will play a random quote of those returned by the current search
- - Ability to share a quote (e.g. to WhatsApp) by long-pressing on it
- 
 ## Data entry:
 
 If you want to fork this project to make your own custom list of quotes, then you'll need:
