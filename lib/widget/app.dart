@@ -34,7 +34,7 @@ class App extends StatelessWidget {
           onPrimary: Colors.white,
         )),
         home: SplashScreen(
-          seconds: 2,
+          seconds: 1,
           title: Text('Soundboard', style: TextStyle(fontSize: 30)),
           navigateAfterSeconds: MyTabs(
               affen: _affen,
@@ -90,7 +90,7 @@ class MyTabs extends StatelessWidget {
             tabs: [
               Tab(
                 icon: Icon(Icons.home),
-                text: 'Alle Tierstimmen',
+                text: 'Alles',
               ),
               Tab(
                 icon: Icon(Icons.spa),

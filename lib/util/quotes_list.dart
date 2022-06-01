@@ -12,12 +12,8 @@ const List<Quote> ALL_QUOTES = [
   Quote('Bonobo', 'Bonobo', SRC_QUIZ, 'affe', 'Bonobo'),
   Quote(
       '12_Loewenaeffchen', 'Löwenäffchen', SRC_QUIZ, 'affe', 'loewenaeffchen'),
-  Quote('14_Schwarzweisser_Vari', 'Schwarzweisser Vari', SRC_QUIZ, 'Vari',
-      'Schwarzweisser_Vari'),
   Quote('roter_vari', 'Roter Vari', SRC_QUIZ, 'Vari', 'roter_vari'),
   Quote('Orang_Utan', 'Orang Utan ♂', SRC_QUIZ, 'Orang', 'Orang_Utan'),
-  Quote('Poitou_Esel_Hengst', 'Poitou-Esel', SRC_QUIZ, 'poitou_esel'),
-  Quote('1_Poitou_Esel', 'Poitou-Esel II', SRC_QUIZ, 'poitou_esel'),
   Quote('Haushuhn_Hahn', 'Hahn', SRC_QUIZ, 'Hahn', 'Hahn'),
   Quote('Haushuhn_Henne', 'Henne', SRC_QUIZ, 'Henne', 'Henne'),
   Quote('Hausziege', 'Hausziege', SRC_QUIZ, 'Ziege', 'Ziege'),
@@ -56,15 +52,13 @@ const List<Quote> AFFEN = [
   Quote('Bonobo', 'Bonobo', SRC_QUIZ, 'affe', 'Bonobo'),
   Quote(
       '12_Loewenaeffchen', 'Löwenäffchen', SRC_QUIZ, 'affe', 'loewenaeffchen'),
-  Quote('14_Schwarzweisser_Vari', 'Schwarzweisser Vari', SRC_QUIZ, 'Vari',
-      'Schwarzweisser_Vari'),
   Quote('roter_vari', 'Roter Vari', SRC_QUIZ, 'Vari', 'roter_vari'),
   Quote('Orang_Utan', 'Orang Utan ♂', SRC_QUIZ, 'Orang', 'Orang_Utan'),
+  Quote('i_like_to_move_it', 'I like to move it (Song)', SRC_QUIZ, 'Madagascar',
+      'King_Julien'),
 ];
 
 const List<Quote> CLEMENSHOF = [
-  Quote('Poitou_Esel_Hengst', 'Poitou-Esel', SRC_QUIZ, 'poitou_esel'),
-  Quote('1_Poitou_Esel', 'Poitou-Esel II', SRC_QUIZ, 'poitou_esel'),
   Quote('Haushuhn_Hahn', 'Hahn', SRC_QUIZ, 'Hahn', 'Hahn'),
   Quote('Haushuhn_Henne', 'Henne', SRC_QUIZ, 'Henne', 'Henne'),
   Quote('Hausziege', 'Hausziege', SRC_QUIZ, 'Ziege', 'Ziege'),
@@ -115,6 +109,4 @@ const List<Quote> QUIZ = [
   Quote('16_Uhu', 'Uhu', SRC_QUIZ, 'Uhu', 'Uhu'),
   Quote('17_Weisshandgibbon', 'Weisshandgibbon', SRC_QUIZ, 'gibbon',
       'Weisshandgibbon'),
-  Quote('i_like_to_move_it', 'I like to move it (Song)', SRC_QUIZ, 'Madagascar',
-      'King_Julien'),
 ];

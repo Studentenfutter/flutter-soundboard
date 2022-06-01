@@ -48,14 +48,17 @@ class SearchableQuotesState extends State<SearchableQuotes> {
               builder: (BuildContext context) => AlertDialog(
                 scrollable: true,
                 title: const Text('Kölner Zoo Soundboard - Erklärung'),
-                content: const Text(
-                    'Die App enthält alle Tierstimmen, die in unterschiedlichen Programmen eingesetzt werden. In der unteren Leiste kann das Programm ausgewählt werden.' +
-                        '\n\n' +
-                        'Ein kurzes tippen auf den Button spielt die jeweilige Tierstimme ab. In der oberen Leiste kann nach Tieren gesucht werden, indem du auf die Lupe drückst.' +
-                        '\n\n' +
-                        'Für Fragen, Fehler, Vorschläge oder falls du die App auf deinem eigenen Android-Telefon installieren möchtest melde dich bitte bei Florian Feix (florian.feix@posteo.de).' +
-                        '\n\n' +
-                        'Letztes Update: 29.05.2022 | Version: 1.0.0 | Entwickler: Florian Feix'),
+                content: const Text('Die App enthält alle Tierstimmen, die in unterschiedlichen Programmen eingesetzt werden. In der unteren Leiste kann das Programm ausgewählt werden.' +
+                    '\n\n' +
+                    'Ein kurzes tippen auf den Button spielt die jeweilige Tierstimme ab. In der oberen Leiste kann nach Tieren gesucht werden, indem du auf die Lupe drückst.' +
+                    '\n\n' +
+                    'Für Fragen, Fehler, Vorschläge oder falls du die App auf deinem eigenen Android-Telefon installieren möchtest melde dich bitte bei Florian Feix (florian.feix@posteo.de).' +
+                    '\n\n' +
+                    'Bildquelle: pixabay.com (Public Domain)' +
+                    '\n' +
+                    'Soundquellen: Tierstimmenarchiv - Museum für Naturkunde Berlin (CC BY-NC-SA 4.0)' +
+                    '\n\n' +
+                    'Letztes Update: 29.05.2022 | Version: 1.0.0 | Entwickler: Florian Feix'),
                 actions: <Widget>[
                   TextButton(
                     onPressed: () => Navigator.pop(context, 'OK'),
