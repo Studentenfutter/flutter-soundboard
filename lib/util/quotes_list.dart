@@ -39,8 +39,6 @@ const List<Quote> ALL_QUOTES = [
       'Humboldtpinguin'),
   Quote('13_Nashorn', 'Nashorn', SRC_QUIZ, '13_Nashorn', 'Nashorn'),
   Quote('16_Uhu', 'Uhu', SRC_QUIZ, 'Uhu', 'Uhu'),
-  Quote('i_like_to_move_it', 'I like to move it (Song)', SRC_QUIZ, 'Madagascar',
-      'King_Julien'),
 ];
 
 const List<Quote> AFFEN = [
@@ -54,8 +52,6 @@ const List<Quote> AFFEN = [
       '12_Loewenaeffchen', 'Löwenäffchen', SRC_QUIZ, 'affe', 'loewenaeffchen'),
   Quote('roter_vari', 'Roter Vari', SRC_QUIZ, 'Vari', 'roter_vari'),
   Quote('Orang_Utan', 'Orang Utan ♂', SRC_QUIZ, 'Orang', 'Orang_Utan'),
-  Quote('i_like_to_move_it', 'I like to move it (Song)', SRC_QUIZ, 'Madagascar',
-      'King_Julien'),
 ];
 
 const List<Quote> CLEMENSHOF = [
@@ -83,7 +79,6 @@ const List<Quote> KATZEN = [
 
 // Soundfile, Buttontext, Referenz, Imagename
 const List<Quote> QUIZ = [
-  Quote('1_Poitou_Esel', 'Poitou-Esel', SRC_QUIZ, 'poitou_esel'),
   Quote('2_Bruellaffe', 'Brüllaffe', SRC_QUIZ, 'affe', 'Bruellaffe'),
   Quote('3_Dolchstichtaube', 'Dolchstichtaube', SRC_QUIZ, 'taube',
       'dolchstichtaube'),

@@ -43,6 +43,11 @@ class SearchableQuotesState extends State<SearchableQuotes> {
           //    padding: EdgeInsets.only(right: 40.0),
           //  ),
           IconButton(
+              tooltip: 'Zufällige Tierstimme',
+              onPressed: _randomPressed,
+              icon: const Icon(Icons.shuffle),
+              padding: const EdgeInsets.only(right: 30.0)),
+          IconButton(
             onPressed: () => showDialog<String>(
               context: context,
               builder: (BuildContext context) => AlertDialog(
@@ -58,7 +63,7 @@ class SearchableQuotesState extends State<SearchableQuotes> {
                     '\n' +
                     'Soundquellen: Tierstimmenarchiv - Museum für Naturkunde Berlin (CC BY-NC-SA 4.0)' +
                     '\n\n' +
-                    'Letztes Update: 29.05.2022 | Version: 1.0.0 | Entwickler: Florian Feix'),
+                    'Letztes Update: 12.06.2022 | Version: 1.0.1 | Entwickler: Florian Feix'),
                 actions: <Widget>[
                   TextButton(
                     onPressed: () => Navigator.pop(context, 'OK'),
@@ -79,9 +84,9 @@ class SearchableQuotesState extends State<SearchableQuotes> {
           padding: const EdgeInsets.all(0),
           children: _filteredQuotes.map((q) => QuoteButton(q)).toList()),
       floatingActionButton: FloatingActionButton(
-        tooltip: 'Zufällige Tierstimme',
-        onPressed: _randomPressed,
-        child: const Icon(Icons.shuffle),
+        tooltip: 'Sound anhalten',
+        onPressed: _stopSound,
+        child: const Icon(Icons.pause),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat);
 
@@ -124,5 +129,10 @@ class SearchableQuotesState extends State<SearchableQuotes> {
   Future _randomPressed() async {
     final element = randomChoice<Quote>(_filteredQuotes);
     await element.play();
+  }
+
+  Future _stopSound() async {
+    final element = randomChoice<Quote>(_filteredQuotes);
+    await element.stop();
   }
 }

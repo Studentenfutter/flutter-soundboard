@@ -49,6 +49,10 @@ class Quote {
     await _audioPlayer?.stop();
     _audioPlayer = await audioCache.play('$filename.mp3');
   }
+
+  Future stop() async {
+    await _audioPlayer?.stop();
+  }
 }
 
 PlayerState getPlaybackState() => _audioPlayer?.state;
