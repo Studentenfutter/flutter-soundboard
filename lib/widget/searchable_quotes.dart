@@ -57,7 +57,7 @@ class SearchableQuotesState extends State<SearchableQuotes> {
                     '\n\n' +
                     'Ein kurzes tippen auf den Button spielt die jeweilige Tierstimme ab. In der oberen Leiste kann nach Tieren gesucht werden, indem du auf die Lupe drückst.' +
                     '\n\n' +
-                    'Für Fragen, Fehler, Vorschläge oder falls du die App auf deinem eigenen Android-Telefon installieren möchtest melde dich bitte bei Florian Feix (florian.feix@posteo.de).' +
+                    'Für Fragen, Fehler, Vorschläge oder falls du die App auf deinem eigenen Android-Telefon installieren möchtest melde dich bitte bei Florian Feix.' +
                     '\n\n' +
                     'Bildquelle: pixabay.com (Public Domain)' +
                     '\n' +
